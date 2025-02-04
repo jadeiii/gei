@@ -21,7 +21,6 @@ const animationTimeline = () => {
     tl.to(".fake-btn", 0.1, { backgroundColor: "rgb(127, 206, 248)" }, "+=1");
     tl.to(".four", 0.5, { scale: 0.2, opacity: 0, y: -150 }, "+=3");
 
-    // Change the URL to index.html here
     tl.add(() => {
         window.location.href = "index.html"; // Redirect to index.html
     });
