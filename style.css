@@ -1,0 +1,88 @@
+  html {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+  }
+
+  .song {
+      visibility: hidden;
+  }
+
+  .container {
+      height: 100vh;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      visibility: hidden;
+      width: 90vw;
+  }
+
+  .container>div {
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 20vh;
+
+  }
+
+  .four .text-box {
+      border: 3px solid #aaa;
+      border-radius: 5px;
+      margin: 0 auto;
+      padding: 10px;
+      position: relative;
+      width: 500px;
+      bottom: -200px;
+  }
+
+  .text-box p {
+      margin: 0;
+      text-align: left;
+  }
+
+  .text-box span {
+      display: inline-block;
+      overflow: hidden;
+      width: 0;
+  }
+
+  .text-box .fake-btn {
+      background-color: rgb(21, 161, 237);
+      border-radius: 3px;
+      bottom: -50px;
+      color: #fff;
+      padding: .5rem 1rem;
+      position: absolute;
+      right: 5px;
+  }
+
+
+  .hbd-chatbox {
+      font-size: 15px;
+      color: #333;
+      display: inline-block;
+      letter-spacing: 2px;
+      background-color: #fff;
+      text-align: justify;
+  }
+
+  @media screen and (max-width: 500px) {
+      .container {
+          width: 100%;
+      }
+
+      .four .text-box {
+          width: 80%;
+      }
+
+      .text-box .fake-btn {
+          bottom: -38px;
+          right: 5px;
+      }
+
+
+  }

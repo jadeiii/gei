@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geri Panget</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f4f0;
+            color: #333;
+        }
+
+        .header {
+            background: #f4a7b9;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 0 0 12px 12px;
+        }
+
+        .user-menu {
+            display: flex;
+            gap: 15px;
+        }
+
+        .user-menu li {
+            list-style: none;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 6px;
+            transition: background 0.3s ease, transform 0.2s;
+        }
+
+        .user-menu li:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        .user-info img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-left: 10px;
+            border: 2px solid #f39f9f;
+        }
+
+        .content {
+            padding: 5px;
+            box-shadow: 20px;
+
+
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+
+        }
+
+        .card {
+            padding: 15px;
+            transition: transform 0.3s;
+            position: relative;
+        }
+
+        .card:nth-child(odd) {
+            margin-top: 30px;
+        }
+
+        .card:nth-child(3n) {
+            margin-top: 50px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card img {
+            width: 100%;
+            height: 400px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin-top: 6px;
+            font-weight: 500;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <ul class="user-menu">
+            <li>Home</li>
+            <li>Profile</li>
+            <li>People</li>
+            <li>Settings</li>
+        </ul>
+        <div class="user-info"> Lods Geri <img src="gei.png" alt="User Icon"></div>
+    </div>
+    <div class="content">
+        <div class="grid">
+            <div class="card">
+                <img src="pt6.png" alt="Post">
+                <p> Pula na Wine </p>
+            </div>
+            <div class="card">
+                <img src="gei2.png" alt="Post">
+                <p> Who's this diva? </p>
+            </div>
+            <div class="card">
+                <img src="pt4.png" alt="Post">
+                <p> Dalawang heart gumiling </p>
+            </div>
+            <div class="card">
+                <img src="pt1.png" alt="Post">
+                <p> Shot puno </p>
+            </div>
+            <div class="card">
+                <a href="heh.html">
+
+                    <img src="gei5.png" alt="Post">
+                </a>
+                <p> Idol Kween </p>
+            </div>
+            <div class="card">
+                <img src="gei3.png" alt="Post">
+
+                <p> Gangster </p>
+            </div>
+            <div class="card">
+                <img src="pt5.png" alt="Post">
+                <p> Two trees in a room they might kiss >< </p>
+            </div>
+            <div class="card">
+                <img src="pt2.png" alt="Post">
+                <p> so cutesy </p>
+            </div>
+            <div class="card">
+                <img src="gei4.png" alt="Post">
+                <p>damnst boss G! BOSS G </p>
+            </div>
+            <div class="card">
+                <img src="pt.png" alt="Post">
+                <p> so artist naman shocks ?!? </p>
+            </div>
+        </div>
+    </div>
